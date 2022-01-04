@@ -1,0 +1,129 @@
+body{
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 14px;
+}
+*{
+    color: #5f6368;
+}
+
+/* Navbar */
+.topnav-right{
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.topnav-right a{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.topnav-right img{
+  display: block;
+  margin: 10px;
+}
+
+.roundedimg{
+    width: 40px;
+    border-radius: 50%;
+}
+
+/* Google Logo */
+.googlelogo{
+    display: block; 
+    width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* Body */
+.container{
+    display: flex;
+    float: right;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 200px;
+  
+}
+
+#searchbox{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 480px;
+    height: 35px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+    border:0;
+    box-shadow: 0px 0px 3px grey;
+    padding-left:40px;
+}
+#inputWrapper{
+    display: inline-flex;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+#icon{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    padding-left: 0.8rem;
+    padding-top: 1.5rem;
+}
+
+#voiceSearchButton{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png) no-repeat center;
+    height: 100%;
+    width: 20px;
+    background-size: 15px 18px;
+    outline: none;
+    position: absolute;
+    right: 16px;
+    pointer-events: auto;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+}
+
+
+input[type="submit"]{
+    background-color: transparent;
+    height: 36px;
+    border:0;
+    box-shadow: 0px 0px 1px grey;
+}
+/* Footer */
+.bottomnav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 36px;   
+}
+
+.bottomnav a{
+    text-decoration: none;
+
+}
+.bottomnav .right{
+    float: right;
+    margin: 6px;
+    margin-right: 10px;
+    display: block;
+
+
+}
+.bottomnav .left{
+    float: left;
+    margin: 6px;
+    display: block;
+    margin-left: 10px;
+
+}
