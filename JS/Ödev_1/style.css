@@ -1,0 +1,24 @@
+*{
+    background-color: #1a1a1a;
+    color: orange;;
+    margin-top: 55px;
+}
+
+.container{
+    display:none;
+    height: 100%;
+    margin: 16px;
+    font-size: 20px; 
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#clock{
+    font-size: 55px;
+    width: 100%;
+    text-align: center;
+}
